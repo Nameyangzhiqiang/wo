@@ -1,0 +1,39 @@
+.max_section5{width: 100%;background: #f2f2f2;}
+.min_section5{max-width: 970px;margin: 0 auto;padding-top: 42px;}
+.min_section5 h2{height: 56px ;line-height: 56px;color: #6b7381;text-align: center;font-size: 30px;}
+.min_section5>p{line-height: 50px;color: #888888;text-align: center;font-size: 24px;margin-bottom: 40px;}
+.section5{width: 100%;}
+.section5 li{width:23% ;margin-right: 2.666%;float: left;padding-bottom:94px ;height: 724px;}
+.section5 li:nth-of-type(4n){margin-right: 0;}
+.section5 li .hgroup5>p{line-height: 24px;color: #888888;font-size: 13px;text-align: left;}
+.section5 li img{display: block;width: 100%;height: 350px;border-radius: 10px;}
+.section5 li .hgroup5>p:nth-of-type(1){text-indent: 24px;padding-top: 16px;}
+.section5 li .hgroup5>h4{line-height: 24px;color: #888888;font-size: 18px;text-align: left;height: 24px;margin-top: 6px;}
+@media only screen and (min-width:761px ) and (max-width:970px ) {
+	.min_section5{width: 92%;margin: 0 auto;}
+	.section5 li{width:30.666% ;margin-right: 4%;height: 634px;}
+	.section5 li:nth-of-type(3n){margin-right: 0;}
+	.section5 li:nth-of-type(4n){margin-right: 4%;}
+	.section5 li:nth-of-type(12){margin-right: 0;}
+	.section5 li img{display: block;width: 100%;height: 370px;border-radius: 10px;}
+}
+@media only screen and (min-width:480px ) and (max-width:760px ) {
+	.min_section5{width: 92%;margin: 0 auto;}
+	.section5{padding-bottom: 50px;}
+	.section5 li{width:31.333% ;margin-right: 2%;height: 250px;}
+	.section5 li:nth-of-type(3n){margin-right: 0;}
+	.section5 li:nth-of-type(4n){margin-right: 2%;}
+	.section5 li:nth-of-type(12){margin-right: 0;}
+	.section5 li img{display: block;width: 100%;height: 320px;border-radius: 10px;}
+	.hgroup5{display: none;}
+}
+@media only screen and (max-width:480px ) {
+	.min_section5{width: 92%;margin: 0 auto;}
+	.section5 li{width:49% ;margin-right: 2%;height: 190px;}
+	.section5 li:nth-of-type(2n){margin-right: 0;}
+	.section5 li:nth-of-type(3n){margin-right: 2%;}
+	.section5 li:nth-of-type(4n){margin-right: 2%;}
+	.hgroup5{display: none;}
+	.section5 li:nth-of-type(12),.section5 li:nth-of-type(6),.section5 li:nth-of-type(4),.section5 li:nth-of-type(8),.section5 li:nth-of-type(16){margin-right: 0;}
+	.section5 li img{display: block;width: 100%;height: 260px;border-radius: 10px;}
+}
